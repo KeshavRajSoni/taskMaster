@@ -1,0 +1,55 @@
+/* HomePage.module.css */
+
+.container {
+  background-color: #f7fafc;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 24rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1.125rem;
+  color: #4a5568;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: #4299e1;
+  color: #ffffff;
+  margin-right: 0.5rem;
+}
+
+.login {
+  background-color: #718096;
+  color: #ffffff;
+}
